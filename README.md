@@ -1,6 +1,10 @@
 # all about static
 "Static" Defined (in java)!
 
+TLDR: The static keyword denotes that a member variable, or method, can be accessed without requiring an instantiation of the class to which it belongs.
+
+In simple terms, it means that you can call a method, even if you've never created the object to which it belongs! Every time you run a stand-alone application (which requires a static main method), the virtual machine can call the main method without creating a new application object. Of course, unless the application's methods are all static, you will need to create an instance of it at some point.
+
 Benefits: It makes your program memory efficient (i.e it saves memory).
 Java static property is shared to all objects.
 
