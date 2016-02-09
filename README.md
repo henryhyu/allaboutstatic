@@ -1,0 +1,2 @@
+# allaboutstatic
+"Static" Defined!
