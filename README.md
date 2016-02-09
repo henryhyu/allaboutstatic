@@ -48,7 +48,7 @@ Static members belong to the class instead of a specific instance.
 It means that only one instance of a static field exists even if you create a million instances of the class or you don't create any. It will be shared by all instances.
 
 Since static methods also do not belong to a specific instance, they can't refer to instance members (how would you know which instance Hello class you want to refer to?). static members can only refer to static members. Instance members can, of course access static members. Side note: Of course, static members can access instance members through an object reference.
-
+```
 public class Example{
 
     private static boolean staticField;
@@ -63,3 +63,4 @@ public class Example{
         instance.instanceField = true;
     }
 
+```
