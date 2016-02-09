@@ -9,8 +9,11 @@ The static keyword in java is used for memory management mainly. We can apply ja
 The static can be:
 
 variable (also known as class variable)
+
 method (also known as class method)
+
 block
+
 nested class
 
 Purpose: Utility is a good keyword for static. You do not want to create instances of yourself, so you make it a function/functionality. If you put something to be static, it is like making it a function of a class.
@@ -27,9 +30,13 @@ A static class means that you cannot use it in a non-static context, meaning tha
 
 Ex. 
 calling a static method using a class name
+
 •		Math.min(88,86)
+
 calling a non-static method using a reference variable name
+
 •		Song t2 = new Song();
+
 •		t2.play();
 
 
